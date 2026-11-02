@@ -21,5 +21,5 @@ podman run --name some-postgres \
 
 # Execute the app
 ```
-uvicorn main:app --reload
+uvicorn main:app --reload --app-dir app
 ```
